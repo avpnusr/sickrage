@@ -12,7 +12,7 @@ RUN apk --update --no-cache add \
     cp /usr/share/zoneinfo/Europe/Berlin /etc/localtime && \
     echo "Europe/Berlin" > /etc/timezone && \
     git clone --depth 1 https://github.com/cytec/SickRage.git /sickrage && \
-    chmod u+x /start.sh /srageup && \
+    chmod u+x /start.sh /sickupdate && \
     echo "20  3  *  *  *    /bin/sh /sickupdate > /dev/null" > /etc/crontabs/root && \
     apk del tzdata && \
     rm -rf /tmp && \
