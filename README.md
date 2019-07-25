@@ -1,22 +1,15 @@
 ![SickRage Logo](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickrage-banner.png)
-**SickRage in container for devices with an ARM CPU**
+**SickRage in docker container (german version)**
 ====
-Image was created on a TinkerBoard (S) and is automatically updated, when a new version of SickRage arrives on GitHub. The image is based on alpine Linux.
+Image is created in auto-build for x86 based systems.
+
+Image is created on TinkerBoard, Raspberry Pi, Rock64 for ARM based systems.
 
 Versions in latest image
 ---
-The image is based on the latest **[SickRage](https://sickrage.github.io/ "SickRage Homepage")** version from **[cytec](https://github.com/cytec/SickRage "cytec SickRage")** which is a version, optimized specially for german users. On request, I will provide a version from the standard SickRage git.
+The image is based on the latest **[SickRage](https://sickrage.github.io/ "SickRage Homepage")** version from **[cytec](https://github.com/cytec/SickRage "cytec SickRage")** which is a version, optimized specially for german users. 
 
-Tested and compatible with following devices
-----
-- Raspberry Pi
-- Raspberry Pi2
-- Raspberry Pi3
-- Raspberry Pi4
-- Raspberry Pi Zero
-- Rock64
-- TinkerBoard
-- TinkerBoard S
+On request, I will provide a version from the standard SickRage git.
 
 Start your container
 -----
