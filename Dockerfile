@@ -22,7 +22,7 @@ VOLUME ["/data", "/incoming", "/media"]
 
 EXPOSE 8081
 
-HEALTHCHECK --interval=60s --timeout=15s --start-period=120s \
+HEALTHCHECK --interval=120s --timeout=15s --start-period=120s \
             CMD wget --no-check-certificate --quiet --spider 'http://localhost:8081' || exit 1
 
 WORKDIR /sickrage
