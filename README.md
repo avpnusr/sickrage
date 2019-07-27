@@ -2,7 +2,6 @@
 **SickRage in docker container (german version)**
 ====
 Image is created in auto-build for x86 based systems.
-
 Image is created on TinkerBoard, Raspberry Pi, Rock64 for ARM based systems.
 
 Versions in latest image
