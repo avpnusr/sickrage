@@ -18,6 +18,8 @@ For **[/incoming/folder]**, you can use the volume, where the files will be stor
 
 For **[/media/folder]**, use the volume, where the postprocessed files will be stored.
 
+You can set the timezone for the container via environment-variable "TZ".
+
 ```
 docker run -d \
   -v [/cfg+db/location]:/data \
@@ -25,6 +27,7 @@ docker run -d \
   -v [/media/folder]:/media \
   -e UID=[Users UID] \
   -e GID=[Users GID] \
+  -e TZ="Europe/Berlin" \
   -p 8081:8081 \
   --restart=always avpnusr/sickpi
 ```
