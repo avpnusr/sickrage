@@ -1,4 +1,4 @@
-![SickRage Logo](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickrage-banner.png)
+![SickRage Logo](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickrage-banner.png)     
 **SickRage in docker container (german version)**
 ====
 Image is created in auto-build for x86 based systems.
