@@ -20,8 +20,6 @@ VOLUME ["/data", "/incoming", "/media"]
 EXPOSE 8081
 
 HEALTHCHECK --interval=120s --timeout=15s --start-period=120s --retries=3 \
-            CMD wget --no-check-certificate --quiet --spider 'http://localhost:8081' || exit 1
+            CMD wget --no-check-certificate --quiet --spider 'http://localhost:8081' && echo "HealthCheck successful..." || exit 1
 
-WORKDIR /sickrage
-
-CMD ["/start.sh"]
+ENTRYPOINT [ "/bin/sh", "/start.sh" ]

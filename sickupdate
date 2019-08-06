@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 /usr/bin/wget -q --no-check-certificate -O /tmp/srage "http://127.0.0.1:8081/home/"
 
