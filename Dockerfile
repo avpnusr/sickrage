@@ -12,7 +12,7 @@ RUN apk --update --no-cache add \
     git clone --depth 1 https://github.com/cytec/SickRage.git /sickrage && \
     chmod u+x /start.sh /sickupdate && \
     echo "20  3  *  *  *    /bin/sh /sickupdate > /dev/null" > /etc/crontabs/root && \
-    rm -rf /tmp && \
+    rm -rf /tmp/* && \
     rm -rf /var/cache/apk/*
 
 VOLUME ["/data", "/incoming", "/media"]
